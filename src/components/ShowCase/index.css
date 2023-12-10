@@ -1,0 +1,37 @@
+.app-container {
+  height: 100vh;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  background-color: #cbd5e1;
+  height: 80px;
+}
+.img-logo {
+  height: 60px;
+  padding-left: 20px;
+}
+.selection-container {
+  padding: 10px;
+}
+.select-container {
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  margin: 0px;
+  box-sizing: border-box;
+}
+.list-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.li-card {
+  width: 20%;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
